@@ -82,7 +82,7 @@ public class KiwiStepDef {
     }
     @When("En ucuz ve Aktarmasiz filtrelemeleri yapilir")
     public void en_ucuz_ve_aktarmasiz_filtrelemeleri_yapilir() {
-        ReusableMethods.bekle(3);
+        ReusableMethods.bekle(4);
         page.bestbutonu.click();
         page.enUcuzbutonu.click();
         page.Stopbutonu.click();
